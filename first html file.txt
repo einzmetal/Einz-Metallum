@@ -1,0 +1,22 @@
+<!DOCTYPE>
+
+<html>
+
+<head>
+
+<style>
+
+body {background-color: black; color:white}
+
+</style>
+
+</head>
+<body>
+
+<h1> This will be a page for all information Metal</h1>
+
+<p> Written and coded by Einz Metal</p>
+
+</body>
+
+</html>
