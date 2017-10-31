@@ -1,4 +1,20 @@
 body{
   background-color: purple;
   color: white;
+  text-align: center;
   }
+
+.active{
+  background-color: orchid;
+  color: white;
+  }
+
+.menu{
+  float: left;
+  }
+
+a:hover{
+  background-color: LimeGreen;
+  color: black;
+  }
+
