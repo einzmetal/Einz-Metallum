@@ -17,6 +17,7 @@ body{
 .menu a{
   float: left;
   display: block;
+  color: white;
   text-align: center;
   font-size: 19px;
   padding: 10px 20px;
