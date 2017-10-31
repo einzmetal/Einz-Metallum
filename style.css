@@ -4,16 +4,26 @@ body{
   text-align: center;
   }
 
-.active{
+.active {
   background-color: orchid;
   color: white;
   }
 
 .menu{
+  overflow: hidden;
+  background-color: #333
+}
+
+.menu a{
   float: left;
+  display: block;
+  text-align: center;
+  font-size: 19px;
+  padding: 10px 20px;
+  
   }
 
-a:hover{
+.menu a:hover{
   background-color: LimeGreen;
   color: black;
   }
