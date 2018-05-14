@@ -32,11 +32,11 @@ p{
   
   }
 
-.dropmenu {
+.dropmenu a{
   display: none;
 }
 
-.menu a:hover .dropmenu{
+.menu .dropmenu a:hover {
   background-color: LimeGreen;
   color: black;
   }
