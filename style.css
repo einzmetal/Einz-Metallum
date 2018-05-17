@@ -38,11 +38,11 @@ p{
 }
 
 .dropd .dropb {
-  color: black;
-  padding: 10px 20px;
+  color: white;
+  background-color: $414141;
   font-size: 19px;
-    display: block;
-    text-align: center;
+  display: block;
+  text-align: center;
 }
 
 .menu a:hover, .dropd:hover .dropb {
