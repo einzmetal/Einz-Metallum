@@ -19,7 +19,7 @@ p{
 
 .menu{
   overflow: hidden;
-  background-color: #414141
+  background-color: #414141;
 }
 
 .menu a{
@@ -28,7 +28,7 @@ p{
   color: white;
   text-align: center;
   font-size: 19px;
-  padding: 10px 20px;
+  text-decoration: none;
   
   }
 
@@ -59,7 +59,6 @@ p{
 .dropc a {
   float: none;
   color: black;
-  padding: 10px 20px;
   display: block;
   text-align: center;
 }
