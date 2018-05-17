@@ -39,10 +39,10 @@ p{
 
 .dropd .dropb {
   color: black;
-    padding: 12px 16px;
-    text-decoration: none;
+  padding: 10px 20px;
+  font-size: 19px;
     display: block;
-    text-align: left;
+    text-align: center;
 }
 
 .menu a:hover, .dropd:hover .dropb {
@@ -59,9 +59,9 @@ p{
 .dropc a {
   float: none;
   color: black;
-  padding: 12px 16px;
+  padding: 10px 20px;
   display: block;
-  text-align: left;
+  text-align: center;
 }
 
 .dropc a:hover {
