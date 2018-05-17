@@ -22,13 +22,14 @@ p{
   background-color: #414141;
 }
 
-.menu a{
+.menu a, .dropd a{
   float: left;
   display: block;
   color: white;
   text-align: center;
   font-size: 19px;
   text-decoration: none;
+  padding: 10px 20px;
   
   }
 
