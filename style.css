@@ -75,7 +75,7 @@ a:active {
   text-align: center;
   border: none;
   outline: none;
-  padding: 14px 16px;
+  padding: 10px 20px;
 }
 
 .dropc {
@@ -92,7 +92,7 @@ a:active {
   color: black;
   display: block;
   text-align: center;
-  padding: 12px 16px;
+  padding: 10px 20px;
   text-decoration: none;
 }
 
