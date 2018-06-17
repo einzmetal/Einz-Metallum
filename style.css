@@ -1,5 +1,5 @@
 body{
-  background-color: #00ADE5;
+  background-color: #80002a;
   color: white;
   text-align: center; 
   font-family: "Century Gothic"
@@ -59,7 +59,7 @@ a.active {
 }
 
 .menu a.active {
-  background-color: #4CAF50;
+  background-color: #0066cc;
   color: white;
 }
 
