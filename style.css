@@ -12,9 +12,29 @@ p{
   font-size: 166%;
 }
 
-.active {
+a:link{
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: black;
+  text-decoration: underline;
+}
+
+
+a:active {
   background-color: #496fa0;
   color: white;
+  text-decoration: underline;
   }
 
 .menu{
@@ -22,7 +42,7 @@ p{
   background-color: #414141;
 }
 
-.menu a, .dropd a{
+.menu a {
   float: left;
   display: block;
   color: white;
@@ -30,12 +50,21 @@ p{
   font-size: 19px;
   text-decoration: none;
   padding: 10px 20px;
-  
-  }
+}
+
+.menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.menu a.active {
+  background-color: #4CAF50;
+  color: white;
+}
 
 .dropd {
   float: left;
-  overflow: hidden;
+  display: inline-block;
 }
 
 .dropd .dropb {
@@ -44,17 +73,18 @@ p{
   font-size: 19px;
   display: block;
   text-align: center;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
 }
-
-.menu a:hover, .dropd:hover .dropb {
-  background-color: LimeGreen;
-  color: black;
-  }
 
 .dropc {
   display: none;
   position: absolute;
   background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
 .dropc a {
@@ -62,6 +92,8 @@ p{
   color: black;
   display: block;
   text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
 }
 
 .dropc a:hover {
