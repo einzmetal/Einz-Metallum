@@ -5,6 +5,9 @@ body{
   text-align: center; 
   font-family: Century Gothic;
   }
+* {
+  box-sizing: border-box;
+}
 
 h1{
   font-size: 250%;
